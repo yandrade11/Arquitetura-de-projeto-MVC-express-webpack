@@ -3,16 +3,14 @@ Repositório com modelo de arquitetura de projeto MVC com express + webpack
 
 ## MVC:
 
-MODEL -> base de dados
-
-VIEW -> frontEnd
-
-CONTROLLER -> funções/classes/tratamentos
-
-ROUTER -> cria/aponta a rota(pagina) express e importa o controller
-
+- MODEL -> base de dados
+- VIEW -> frontEnd
+- CONTROLLER -> funções/classes/tratamentos
+- ROUTER -> cria/aponta a rota(pagina) express e importa o controller
 
 ---
+
+## PASSO A PASSO DO QUE FOI FEITO
 
 1. criar estrutura mvc (src/controller, model e view);
 2. instalar express, nodemon, path e ejs no terminal;
@@ -33,18 +31,18 @@ ROUTER -> cria/aponta a rota(pagina) express e importa o controller
 
 no package.json:
 
-...
+```
 "scripts": {
     "start": nodemon server.js --ignore public
 }
-...
+```
 
 ## COMO RESOLVER VULNERABILILDADES DO NODE?
-
+```
 ~npm audit fix
+```
 
 ## COMO TESTAR ARQUIVO ESTÁTICO
-
 conteúdo estático = logo, imagens, bundle, css, etc...
 
 **como testar se conteúdo estático funciona:**
