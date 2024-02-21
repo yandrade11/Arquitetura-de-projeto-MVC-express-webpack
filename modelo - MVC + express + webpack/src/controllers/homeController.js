@@ -31,3 +31,6 @@ exports.trataPost = (req, res) => {
 
   // res.render("trataPost");
 };
+
+//res.send = envia direto o html para a página
+//res.render = importa o html da view

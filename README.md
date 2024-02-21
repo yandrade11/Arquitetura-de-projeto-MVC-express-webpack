@@ -8,8 +8,6 @@ Repositório com modelo de arquitetura de projeto MVC com express + webpack
 - CONTROLLER -> funções/classes/tratamentos
 - ROUTER -> cria/aponta a rota(pagina) express e importa o controller
 
----
-
 ## PASSO A PASSO DO QUE FOI FEITO
 
 1. criar estrutura mvc (src/controller, model e view);
@@ -21,11 +19,6 @@ Repositório com modelo de arquitetura de projeto MVC com express + webpack
 7. trocar o res.send para res.render na controller;
 8. criar pasta public (estáticos);
 9. criar pasta assets.
-
-
-**res.send** = envia direto o html para a página
-
-**res.render** = importa o html da view
 
 ## COMO FAZER O NODEMON IGNORAR PASTAS?
 
