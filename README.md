@@ -25,7 +25,7 @@ ROUTER -> cria/aponta a rota(pagina) express e importa o controller
 9. criar pasta assets.
 
 
-**res.send** = envia direto o html para a página
+**res.send** = envia direto o html para a página \n
 **res.render** = importa o html da view
 
 ## COMO FAZER O NODEMON IGNORAR PASTAS?
